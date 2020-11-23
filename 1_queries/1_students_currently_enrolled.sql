@@ -1,1 +1,8 @@
-SELECT name,id,cohort_id FROM students WHERE end_date IS NULL;
+SELECT
+  name,
+  id,
+  cohort_id
+FROM
+  students
+WHERE
+  end_date IS NULL;
